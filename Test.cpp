@@ -67,6 +67,28 @@ int main() // функция в которую пишем код
         cout << second[3]<<"\n";
         cout << second[5];
     }
+    //=========================================
+    while (true)
+    {
+        string second;
+        cout<<"Введите первую строку: ";
+        cin>>second;
+        string third;
+        cout<<"Введите вторую строку: ";
+        cin>>third;
+        if (second.length() > third.length())
+        {
+            cout << "Первая строка больше - "<< second;
+        }
+        else if (second.length() < third.length())
+        {
+            cout << "Вторая строка больше - "<< third;
+        }
+        else if (second.length() == third.length())
+        {
+            cout << "Я знаю, я знаю кто победил, победила - ДРУЖБА!";
+        }
+    }
     
     
     
