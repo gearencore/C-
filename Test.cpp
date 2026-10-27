@@ -182,5 +182,5 @@ int main() // функция в которую пишем код
     float sinDeg = sin(rad);
     float cosDeg = cos(rad);
     cout<<"Синус вашего угла равен: "<< round(sinDeg) ;
-    cout<<"\n""Косинус вашего угла равен: "<< round(sinDeg);
+    cout<<"\n""Косинус вашего угла равен: "<< round(cosDeg);
 }
